@@ -13,6 +13,7 @@ public class Vehiculo {
 	protected int peso;
 	private String traccion;
 	protected Fabricante fabricante;
+	private static int cantidadVehiculos;
 	private static List<Vehiculo> vehiculos = new ArrayList<Vehiculo> ();
 	
 	public Vehiculo() {
@@ -91,6 +92,9 @@ public class Vehiculo {
 	}
 	public void setFabricante(Fabricante fabricante) {
 		this.fabricante = fabricante;
+	}
+	public static void setCantidadVehiculos(int cantidadVehiculos) {
+		cantidadVehiculos = cantidadVehiculos;
 	}
 	
 	public void addToVehiculos(Vehiculo vehiculo) {
