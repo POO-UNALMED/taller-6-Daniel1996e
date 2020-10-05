@@ -1,4 +1,4 @@
-package vehiculo;
+package vehiculos;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -108,5 +108,4 @@ public class Vehiculo {
 	public static int getCantidadVehiculos() {
 		return Automovil.cantidadAutomoviles() + Camioneta.cantidadCamionetas() + Camion.cantidadCamiones();
 	}
-		
 }

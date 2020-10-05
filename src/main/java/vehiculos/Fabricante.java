@@ -1,4 +1,4 @@
-package vehiculo;
+package vehiculos;
 
 import java.util.Collections;
 import java.util.Comparator;
