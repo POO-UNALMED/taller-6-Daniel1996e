@@ -19,8 +19,8 @@ public class Automovil extends Vehiculo {
 		this.puestos = puestos;
 		automoviles.add(this);
 		addToVehiculos(this);
-		Pais.añadirAPais(this.fabricante.getPais());
-		Fabricante.añadirAFabricante(fabricante);
+		Pais.anadirAPais(this.fabricante.getPais());
+		Fabricante.anadirAFabricante(fabricante);
 	}
 	
 	public int getPuestos() {

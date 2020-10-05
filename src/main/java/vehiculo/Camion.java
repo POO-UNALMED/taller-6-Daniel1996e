@@ -18,8 +18,8 @@ public class Camion extends Vehiculo {
 		this.setTraccion("4X2");
 		this.ejes = ejes;
 		camiones.add(this);
-		Pais.añadirAPais(this.fabricante.getPais());
-		Fabricante.añadirAFabricante(fabricante);
+		Pais.anadirAPais(this.fabricante.getPais());
+		Fabricante.anadirAFabricante(fabricante);
 	}
 	
 	public int getEjes() {

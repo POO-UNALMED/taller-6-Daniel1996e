@@ -21,7 +21,7 @@ public class Pais {
 		this.nombre = nombre;
 	}
 	
-	public static void añadirAPais(Pais pais) {
+	public static void anadirAPais(Pais pais) {
 		paises.replace(pais, paises.get(pais) + 1);
 	}
 	public static Pais paisMasVendedor() {

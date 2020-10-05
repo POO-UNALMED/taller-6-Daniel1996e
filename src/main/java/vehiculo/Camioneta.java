@@ -17,8 +17,8 @@ public class Camioneta extends Vehiculo {
 		this.setTraccion("4X4");
 		this.volco = volco;
 		camionetas.add(this);
-		Pais.añadirAPais(this.fabricante.getPais());
-		Fabricante.añadirAFabricante(fabricante);
+		Pais.anadirAPais(this.fabricante.getPais());
+		Fabricante.anadirAFabricante(fabricante);
 	}
 	
 	public boolean isVolco() {

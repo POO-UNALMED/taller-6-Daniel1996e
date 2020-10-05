@@ -31,7 +31,7 @@ public class Fabricante {
 		this.pais = pais;
 	}
 	
-	public static void añadirAFabricante(Fabricante fabricante) {
+	public static void anadirAFabricante(Fabricante fabricante) {
 		fabricantes.replace(fabricante, fabricantes.get(fabricante) + 1);
 	}
 	public static Fabricante fabricaMayorVentas() {
